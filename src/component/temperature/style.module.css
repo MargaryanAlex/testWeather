@@ -1,0 +1,14 @@
+.arrow {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrow span {
+  transition: 0.5s;
+}
+[class*="active"] .arrow span {
+  /* transition: 1s; */
+
+  transform: rotate(-90deg);
+}

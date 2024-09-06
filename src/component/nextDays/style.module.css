@@ -1,0 +1,20 @@
+.currentDay {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.currentDay span {
+  color: rgb(194, 194, 194);
+}
+.perHour {
+  /* display: none; */
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+}
+
+.active .perHour {
+  margin-top: 5vh;
+  display: flex;
+  max-height: 300px;
+}
